@@ -21,6 +21,5 @@ public class Ejercicio56 {
         }
         System.out.println("los aprobados son: " + aprobado);
         System.out.println("los no aprobados son: " + reprobado);
-        
     }
 }
