@@ -2,17 +2,16 @@ public class EjmCond2 {
 
     public static void main(String[] args) {
 
-        int barcelona = 300;
-        int real_madrid = 290;
-        if (barcelona > real_madrid) {
-            System.out.println("barcelona es el mejorrrrrr");
-        } else {
-            System.out.println("real gano");
+        int a = 7 * 3 + 6 / 2 - 5;
+        int b = 21 - 8 + a % 3 * 11;
+        if (a < b) {
+            System.out.println("a is less than b");
         }
-
-        System.out.println(barcelona > real_madrid ? "messi es el mejorrr" : "real madrid gano");
-
+        if (a == b) {
+            System.out.println("a is equals to b");
+        }
+        if (a > b) {
+            System.out.println(" a is greather than b");
+        }
     }
 }
-
-
