@@ -4,7 +4,7 @@ public class ejercicioCon {
         boolean a = true;
         boolean b = true;
         boolean c = true;
-        if(!a || (b&&c)){
+        if(!a && (b&&c)){
                 System.out.println("sentencia if ejecutada");
 
         }else{
